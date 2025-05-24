@@ -1,8 +1,14 @@
 # Update Workarounds
 Some stuff I stumbled over while updating lately.
 
-### 2025-04-16 OBS Virtual Camera Broken
+### Grub Reinstall
+In the current setup, where I still boot via traditional BIOS, not UEFI.
+```bash
+grub-install --target=i386-pc /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+```
 
+### 2025-04-16 OBS Virtual Camera Broken
 OBS 31.0.3 virtual camera still breaks with v4l2loopback-dkms-0.14.
 
 Description of Problem in [OBS Forum](https://obsproject.com/forum/threads/obs-virtual-camera-failed-to-start-streaming-on-dev-video2-invalid-argument.184717/)
