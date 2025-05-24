@@ -9,7 +9,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Deploy MkDocs via SCP",
+      "label": "Deploy MkDocs via Rsync",
       "type": "shell",
       "command": "rsync -rvz --delete --progress site/* doc.thomasx.de:/srv/http/doc/",
       "dependsOn": "Build MkDocs",
