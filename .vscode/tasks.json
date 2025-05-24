@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build MkDocs",
+      "type": "shell",
+      "command": "mkdocs build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Deploy MkDocs via SCP",
+      "type": "shell",
+      "command": "rsync -rvz --delete --progress site/* doc.thomasx.de:/srv/http/doc/",
+      "dependsOn": "Build MkDocs",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
+
