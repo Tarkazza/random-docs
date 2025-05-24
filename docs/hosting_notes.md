@@ -2,5 +2,15 @@
 
 ### Letsencrypt Add Host
 
-* Adding virtual Host in apache config
-* run CertBot  ````certbot --apache -d xxx.xxxxx.xx```
+
+```
+certbot --apache -d xxx.xxxxx.xx
+```
+
+### Letsencrypt delete certificate
+
+```
+certbot delete
+```
+
+[Documentation](https://eff-certbot.readthedocs.io/en/stable/using.html#managing-certificates)
