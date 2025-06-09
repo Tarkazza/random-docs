@@ -27,3 +27,10 @@ rmmod -f v4l2loopback
 modprobe v4l2loopback
 ```
 
+# Transport Fever 2 Mods
+Installation of Mods that are not available in the Steam Workshop:
+
+* Local download Directory **/net/Dokumente/InstallFiles/TransportFever/**
+* Directory for Mod installation under Steam **/data/SteamLibrary/steamapps/common/Transport Fever 2/mods**
+
+

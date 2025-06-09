@@ -3,13 +3,13 @@
 ### Letsencrypt Add Host
 
 
-```
+```bash
 certbot --apache -d xxx.xxxxx.xx
 ```
 
 ### Letsencrypt delete certificate
 
-```
+```bash
 certbot delete
 ```
 
