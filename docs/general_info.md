@@ -16,4 +16,16 @@ Installation of Mods that are not available in the Steam Workshop:
 
 ```ifuse /media/iphone/```
 
+### Rebuild (g)mplayer
+* mplayer-now wegsichern
+* mplayer-now im mplayer-now Verzeichniss
+* ```./configure --enable-gui```
+* ```make clean```
+* ```make```
+* ```make install```
+
+
+
+
+
 
