@@ -8,8 +8,12 @@ grub-install --target=i386-pc /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-### 2025-04-16 OBS Virtual Camera Broken
-OBS 31.0.3 virtual camera still breaks with v4l2loopback-dkms-0.14.
+### 2025-04-16 OBS Virtual Camera Broken [SOLVED]
+
+* OBS 31.0.3 virtual camera was still **broken** with v4l2loopback-dkms-0.14.
+* OBS 32.0.1 virtual camera now **works** with v4l2loopback-dkms 0.15.2.
+
+So the following is no longer relevant.
 
 Description of Problem in [OBS Forum](https://obsproject.com/forum/threads/obs-virtual-camera-failed-to-start-streaming-on-dev-video2-invalid-argument.184717/)
 
