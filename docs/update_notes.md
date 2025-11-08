@@ -31,5 +31,13 @@ rmmod -f v4l2loopback
 modprobe v4l2loopback
 ```
 
+### 2025-11-08 LXPanel Tooltips
+
+LXPanel Tooltips are broken because of GTK Bug.
+
+Bug open on Gnome.org for months so far. 
+
+[Github Bug Tracker](https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/8216)
+
 
 
