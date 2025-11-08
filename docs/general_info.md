@@ -24,6 +24,16 @@ Installation of Mods that are not available in the Steam Workshop:
 * ```make```
 * ```make install```
 
+### MP3Gain Equalization
+
+Created tga-mp3gain-norm to equalize all MP3s in a directory.
+
+```bash
+#!/bin/bash
+
+find "$1" -type f -iname "*.mp3" -print0 | xargs -0 mp3gain -r -k
+```
+
 
 
 
