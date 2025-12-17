@@ -42,6 +42,7 @@ Bug open on Gnome.org for months so far.
 ### 2025-12-01 Discord Crash and Green Stream
 
 Discord Crashed during streaming, and Stream get's sent as green artifact-soup.
+
 [Arch Forum Thread](https://bbs.archlinux.org/viewtopic.php?id=310039)
 
 Crash itself was Fixed by Mesa project ~2025-12-10, Discord problem still there.
