@@ -39,5 +39,15 @@ Bug open on Gnome.org for months so far.
 
 [Github Bug Tracker](https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/8216)
 
+### 2025-12-01 Discord Crash and Green Stream
+
+Discord Crashed during streaming, and Stream get's sent as green artifact-soup.
+[Arch Forum Thread](https://bbs.archlinux.org/viewtopic.php?id=310039)
+
+Crash itself was Fixed by Mesa project ~2025-12-10, Discord problem still there.
+
+[Freedesktop Bug](https://gitlab.freedesktop.org/mesa/mesa/-/issues/14270)
+
+
 
 
